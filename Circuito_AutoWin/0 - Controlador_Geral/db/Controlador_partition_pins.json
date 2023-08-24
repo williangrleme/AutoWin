@@ -1,0 +1,317 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "UHA0",
+					"strict" : false
+				},
+				{
+					"name" : "DHA0",
+					"strict" : false
+				},
+				{
+					"name" : "UHA1",
+					"strict" : false
+				},
+				{
+					"name" : "UHA2",
+					"strict" : false
+				},
+				{
+					"name" : "DHA2",
+					"strict" : false
+				},
+				{
+					"name" : "UHA3",
+					"strict" : false
+				},
+				{
+					"name" : "DHA3",
+					"strict" : false
+				},
+				{
+					"name" : "UHA4",
+					"strict" : false
+				},
+				{
+					"name" : "UHA5",
+					"strict" : false
+				},
+				{
+					"name" : "DHA4",
+					"strict" : false
+				},
+				{
+					"name" : "DHA5",
+					"strict" : false
+				},
+				{
+					"name" : "UHA6",
+					"strict" : false
+				},
+				{
+					"name" : "DHA6",
+					"strict" : false
+				},
+				{
+					"name" : "UMA0",
+					"strict" : false
+				},
+				{
+					"name" : "DMA0",
+					"strict" : false
+				},
+				{
+					"name" : "UMA1",
+					"strict" : false
+				},
+				{
+					"name" : "DMA1",
+					"strict" : false
+				},
+				{
+					"name" : "UMA2",
+					"strict" : false
+				},
+				{
+					"name" : "DMA2",
+					"strict" : false
+				},
+				{
+					"name" : "UMA3",
+					"strict" : false
+				},
+				{
+					"name" : "DMA3",
+					"strict" : false
+				},
+				{
+					"name" : "UMA4",
+					"strict" : false
+				},
+				{
+					"name" : "DMA4",
+					"strict" : false
+				},
+				{
+					"name" : "UMA5",
+					"strict" : false
+				},
+				{
+					"name" : "DMA5",
+					"strict" : false
+				},
+				{
+					"name" : "UMA6",
+					"strict" : false
+				},
+				{
+					"name" : "DMA6",
+					"strict" : false
+				},
+				{
+					"name" : "UHF0",
+					"strict" : false
+				},
+				{
+					"name" : "UHF1",
+					"strict" : false
+				},
+				{
+					"name" : "DHF0",
+					"strict" : false
+				},
+				{
+					"name" : "UHF2",
+					"strict" : false
+				},
+				{
+					"name" : "UHF3",
+					"strict" : false
+				},
+				{
+					"name" : "DHF2",
+					"strict" : false
+				},
+				{
+					"name" : "UHF4",
+					"strict" : false
+				},
+				{
+					"name" : "DHF3",
+					"strict" : false
+				},
+				{
+					"name" : "UHF5",
+					"strict" : false
+				},
+				{
+					"name" : "DHF4",
+					"strict" : false
+				},
+				{
+					"name" : "UHF6",
+					"strict" : false
+				},
+				{
+					"name" : "DHF5",
+					"strict" : false
+				},
+				{
+					"name" : "DHF6",
+					"strict" : false
+				},
+				{
+					"name" : "UMF0",
+					"strict" : false
+				},
+				{
+					"name" : "DMF0",
+					"strict" : false
+				},
+				{
+					"name" : "UMF1",
+					"strict" : false
+				},
+				{
+					"name" : "DMF1",
+					"strict" : false
+				},
+				{
+					"name" : "UMF2",
+					"strict" : false
+				},
+				{
+					"name" : "DMF2",
+					"strict" : false
+				},
+				{
+					"name" : "UMF3",
+					"strict" : false
+				},
+				{
+					"name" : "DMF3",
+					"strict" : false
+				},
+				{
+					"name" : "UMF4",
+					"strict" : false
+				},
+				{
+					"name" : "DMF4",
+					"strict" : false
+				},
+				{
+					"name" : "UMF5",
+					"strict" : false
+				},
+				{
+					"name" : "DMF5",
+					"strict" : false
+				},
+				{
+					"name" : "UMF6",
+					"strict" : false
+				},
+				{
+					"name" : "DMF6",
+					"strict" : false
+				},
+				{
+					"name" : "M[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SM[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BMO",
+					"strict" : false
+				},
+				{
+					"name" : "BJ",
+					"strict" : false
+				},
+				{
+					"name" : "FA",
+					"strict" : false
+				},
+				{
+					"name" : "FF",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "CFG",
+					"strict" : false
+				},
+				{
+					"name" : "HR_ATUAL[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HR_ATUAL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HR_ATUAL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HR_ATUAL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HR_ATUAL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MIN_ATUAL[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MIN_ATUAL[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MIN_ATUAL[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MIN_ATUAL[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MIN_ATUAL[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MIN_ATUAL[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ICHA",
+					"strict" : false
+				},
+				{
+					"name" : "ICMA",
+					"strict" : false
+				},
+				{
+					"name" : "ICHF",
+					"strict" : false
+				},
+				{
+					"name" : "ICMF",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

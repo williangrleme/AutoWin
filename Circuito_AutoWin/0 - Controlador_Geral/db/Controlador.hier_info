@@ -1,0 +1,1396 @@
+|Controlador
+UHA0 <= circuitoAutomatico:inst4.UHA0
+BMO => circuitoAutomatico:inst4.BMO
+BMO => BUSMUX:MOTOR.sel
+BMO => controleManual:inst.BMO
+BMO => BUSMUX:SENTIDO_MOTOR.sel
+CFG => circuitoAutomatico:inst4.CFG
+CLK => circuitoAutomatico:inst4.CLK_att
+CLK => inst11.CLK
+CLK => inst12.CLK
+CLK => inst2.CLK
+CLK => inst13.CLK
+CLK => controleAutomatico:inst3.clk
+CLK => controleManual:inst.clk
+ICHA => inst8.IN0
+ICHF => inst9.IN0
+ICMA => inst7.IN0
+ICMF => inst10.IN0
+HR_ATUAL[0] => circuitoAutomatico:inst4.HR_ATUAL[0]
+HR_ATUAL[1] => circuitoAutomatico:inst4.HR_ATUAL[1]
+HR_ATUAL[2] => circuitoAutomatico:inst4.HR_ATUAL[2]
+HR_ATUAL[3] => circuitoAutomatico:inst4.HR_ATUAL[3]
+HR_ATUAL[4] => circuitoAutomatico:inst4.HR_ATUAL[4]
+MIN_ATUAL[0] => circuitoAutomatico:inst4.MIN_ATUAL[0]
+MIN_ATUAL[1] => circuitoAutomatico:inst4.MIN_ATUAL[1]
+MIN_ATUAL[2] => circuitoAutomatico:inst4.MIN_ATUAL[2]
+MIN_ATUAL[3] => circuitoAutomatico:inst4.MIN_ATUAL[3]
+MIN_ATUAL[4] => circuitoAutomatico:inst4.MIN_ATUAL[4]
+MIN_ATUAL[5] => circuitoAutomatico:inst4.MIN_ATUAL[5]
+DHA0 <= circuitoAutomatico:inst4.DHA0
+UHA1 <= circuitoAutomatico:inst4.UHA1
+DHA1 <= circuitoAutomatico:inst4.DHA1
+UHA2 <= circuitoAutomatico:inst4.UHA2
+DHA2 <= circuitoAutomatico:inst4.DHA2
+UHA3 <= circuitoAutomatico:inst4.UHA3
+DHA3 <= circuitoAutomatico:inst4.DHA3
+UHA4 <= circuitoAutomatico:inst4.UHA4
+UHA5 <= circuitoAutomatico:inst4.UHA5
+DHA4 <= circuitoAutomatico:inst4.DHA4
+DHA5 <= circuitoAutomatico:inst4.DHA5
+UHA6 <= circuitoAutomatico:inst4.UHA6
+DHA6 <= circuitoAutomatico:inst4.DHA6
+UMA0 <= circuitoAutomatico:inst4.UMA0
+DMA0 <= circuitoAutomatico:inst4.DMA0
+UMA1 <= circuitoAutomatico:inst4.UMA1
+DMA1 <= circuitoAutomatico:inst4.DMA1
+UMA2 <= circuitoAutomatico:inst4.UMA2
+DMA2 <= circuitoAutomatico:inst4.DMA2
+UMA3 <= circuitoAutomatico:inst4.UMA3
+DMA3 <= circuitoAutomatico:inst4.DMA3
+UMA4 <= circuitoAutomatico:inst4.UMA4
+DMA4 <= circuitoAutomatico:inst4.DMA4
+UMA5 <= circuitoAutomatico:inst4.UMA5
+DMA5 <= circuitoAutomatico:inst4.DMA5
+UMA6 <= circuitoAutomatico:inst4.UMA6
+DMA6 <= circuitoAutomatico:inst4.DMA6
+UHF0 <= circuitoAutomatico:inst4.UHF0
+UHF1 <= circuitoAutomatico:inst4.UHF1
+DHF0 <= circuitoAutomatico:inst4.DHF0
+UHF2 <= circuitoAutomatico:inst4.UHF2
+DHF1 <= circuitoAutomatico:inst4.DHF1
+UHF3 <= circuitoAutomatico:inst4.UHF3
+DHF2 <= circuitoAutomatico:inst4.DHF2
+UHF4 <= circuitoAutomatico:inst4.UHF4
+DHF3 <= circuitoAutomatico:inst4.DHF3
+UHF5 <= circuitoAutomatico:inst4.UHF5
+DHF4 <= circuitoAutomatico:inst4.DHF4
+UHF6 <= circuitoAutomatico:inst4.UHF6
+DHF5 <= circuitoAutomatico:inst4.DHF5
+DHF6 <= circuitoAutomatico:inst4.DHF6
+UMF0 <= circuitoAutomatico:inst4.UMF0
+DMF0 <= circuitoAutomatico:inst4.DMF0
+UMF1 <= circuitoAutomatico:inst4.UMF1
+DMF1 <= circuitoAutomatico:inst4.DMF1
+UMF2 <= circuitoAutomatico:inst4.UMF2
+DMF2 <= circuitoAutomatico:inst4.DMF2
+UMF3 <= circuitoAutomatico:inst4.UMF3
+DMF3 <= circuitoAutomatico:inst4.DMF3
+UMF4 <= circuitoAutomatico:inst4.UMF4
+DMF4 <= circuitoAutomatico:inst4.DMF4
+UMF5 <= circuitoAutomatico:inst4.UMF5
+DMF5 <= circuitoAutomatico:inst4.DMF5
+UMF6 <= circuitoAutomatico:inst4.UMF6
+DMF6 <= circuitoAutomatico:inst4.DMF6
+M[0] <= BUSMUX:MOTOR.result[0]
+FA => controleAutomatico:inst3.FA
+FA => controleManual:inst.FA
+FF => controleAutomatico:inst3.FF
+FF => controleManual:inst.FF
+BJ => controleManual:inst.BJ
+SM[0] <= BUSMUX:SENTIDO_MOTOR.result[0]
+
+
+|Controlador|circuitoAutomatico:inst4
+UHA0 <= 7447:Display_UHA.OA
+ICHA => inst15.IN0
+BMO => inst16.IN0
+BMO => inst2.IN0
+BMO => inst22.IN0
+BMO => inst19.IN0
+BMO => inst28.IN0
+BMO => inst43.IN0
+CFG => inst15.IN2
+CFG => inst.IN1
+CFG => inst18.IN2
+CFG => inst17.IN2
+CFG => inst28.IN1
+CFG => inst43.IN1
+UHA1 <= 7447:Display_UHA.OB
+UHA2 <= 7447:Display_UHA.OC
+UHA3 <= 7447:Display_UHA.OD
+UHA4 <= 7447:Display_UHA.OE
+UHA5 <= 7447:Display_UHA.OF
+UHA6 <= 7447:Display_UHA.OG
+DHA0 <= 7447:Display_DHA.OA
+DHA1 <= 7447:Display_DHA.OB
+DHA2 <= 7447:Display_DHA.OC
+DHA3 <= 7447:Display_DHA.OD
+DHA4 <= 7447:Display_DHA.OE
+DHA5 <= 7447:Display_DHA.OF
+DHA6 <= 7447:Display_DHA.OG
+UMA0 <= 7447:Display_UMA.OA
+ICMA => inst.IN0
+UMA1 <= 7447:Display_UMA.OB
+UMA2 <= 7447:Display_UMA.OC
+UMA6 <= 7447:Display_UMA.OG
+UMA3 <= 7447:Display_UMA.OD
+UMA4 <= 7447:Display_UMA.OE
+UMA5 <= 7447:Display_UMA.OF
+DMA0 <= 7447:Display_DMA.OA
+DMA1 <= 7447:Display_DMA.OB
+DMA2 <= 7447:Display_DMA.OC
+DMA3 <= 7447:Display_DMA.OD
+DMA4 <= 7447:Display_DMA.OE
+DMA5 <= 7447:Display_DMA.OF
+DMA6 <= 7447:Display_DMA.OG
+UHF0 <= 7447:Display_UHF.OA
+ICHF => inst18.IN0
+UHF1 <= 7447:Display_UHF.OB
+UHF2 <= 7447:Display_UHF.OC
+UHF3 <= 7447:Display_UHF.OD
+UHF4 <= 7447:Display_UHF.OE
+UHF5 <= 7447:Display_UHF.OF
+UHF6 <= 7447:Display_UHF.OG
+DHF0 <= 7447:Display_DHF.OA
+DHF1 <= 7447:Display_DHF.OB
+DHF2 <= 7447:Display_DHF.OC
+DHF3 <= 7447:Display_DHF.OD
+DHF4 <= 7447:Display_DHF.OE
+DHF5 <= 7447:Display_DHF.OF
+DHF6 <= 7447:Display_DHF.OG
+UMF0 <= 7447:Display_UMF.OA
+ICMF => inst17.IN0
+UMF1 <= 7447:Display_UMF.OB
+UMF2 <= 7447:Display_UMF.OC
+UMF3 <= 7447:Display_UMF.OD
+UMF4 <= 7447:Display_UMF.OE
+UMF5 <= 7447:Display_UMF.OF
+UMF6 <= 7447:Display_UMF.OG
+DMF0 <= 7447:Display_DMF.OA
+DMF1 <= 7447:Display_DMF.OB
+DMF2 <= 7447:Display_DMF.OC
+DMF3 <= 7447:Display_DMF.OD
+DMF4 <= 7447:Display_DMF.OE
+DMF5 <= 7447:Display_DMF.OF
+DMF6 <= 7447:Display_DMF.OG
+RL <= inst42.DB_MAX_OUTPUT_PORT_TYPE
+CLK_att => LPM_COMPARE:inst23.clock
+CLK_att => LPM_COMPARE:inst24.clock
+CLK_att => LPM_COMPARE:inst63.clock
+CLK_att => LPM_COMPARE:inst61.clock
+HR_ATUAL[0] => LPM_COMPARE:inst23.datab[0]
+HR_ATUAL[0] => LPM_COMPARE:inst63.datab[0]
+HR_ATUAL[1] => LPM_COMPARE:inst23.datab[1]
+HR_ATUAL[1] => LPM_COMPARE:inst63.datab[1]
+HR_ATUAL[2] => LPM_COMPARE:inst23.datab[2]
+HR_ATUAL[2] => LPM_COMPARE:inst63.datab[2]
+HR_ATUAL[3] => LPM_COMPARE:inst23.datab[3]
+HR_ATUAL[3] => LPM_COMPARE:inst63.datab[3]
+HR_ATUAL[4] => LPM_COMPARE:inst23.datab[4]
+HR_ATUAL[4] => LPM_COMPARE:inst63.datab[4]
+MIN_ATUAL[0] => LPM_COMPARE:inst24.datab[0]
+MIN_ATUAL[0] => LPM_COMPARE:inst61.datab[0]
+MIN_ATUAL[1] => LPM_COMPARE:inst24.datab[1]
+MIN_ATUAL[1] => LPM_COMPARE:inst61.datab[1]
+MIN_ATUAL[2] => LPM_COMPARE:inst24.datab[2]
+MIN_ATUAL[2] => LPM_COMPARE:inst61.datab[2]
+MIN_ATUAL[3] => LPM_COMPARE:inst24.datab[3]
+MIN_ATUAL[3] => LPM_COMPARE:inst61.datab[3]
+MIN_ATUAL[4] => LPM_COMPARE:inst24.datab[4]
+MIN_ATUAL[4] => LPM_COMPARE:inst61.datab[4]
+MIN_ATUAL[5] => LPM_COMPARE:inst24.datab[5]
+MIN_ATUAL[5] => LPM_COMPARE:inst61.datab[5]
+RD <= inst49.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|7447:Display_UHA
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Unidade_Hora_Abertura
+clock => cntr_sij:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => cntr_sij:auto_generated.aclr
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_sij:auto_generated.q[0]
+q[1] <= cntr_sij:auto_generated.q[1]
+q[2] <= cntr_sij:auto_generated.q[2]
+q[3] <= cntr_sij:auto_generated.q[3]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated
+aclr => counter_reg_bit[3].IN0
+clock => counter_reg_bit[3].CLK
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|cmpr_qgc:cmpr1
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Dezena_Hora_Abertura
+clock => cntr_chj:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => cntr_chj:auto_generated.aclr
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_chj:auto_generated.q[0]
+q[1] <= cntr_chj:auto_generated.q[1]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Dezena_Hora_Abertura|cntr_chj:auto_generated
+aclr => counter_reg_bit[1].IN0
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|7447:Display_DHA
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|7447:Display_UMA
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Unidade_Minuto_Abertura
+clock => cntr_sij:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => cntr_sij:auto_generated.aclr
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_sij:auto_generated.q[0]
+q[1] <= cntr_sij:auto_generated.q[1]
+q[2] <= cntr_sij:auto_generated.q[2]
+q[3] <= cntr_sij:auto_generated.q[3]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated
+aclr => counter_reg_bit[3].IN0
+clock => counter_reg_bit[3].CLK
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|cmpr_qgc:cmpr1
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+
+
+|Controlador|circuitoAutomatico:inst4|7447:Display_DMA
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Dezena_Minuto_Abertura
+clock => cntr_hhj:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => cntr_hhj:auto_generated.aclr
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_hhj:auto_generated.q[0]
+q[1] <= cntr_hhj:auto_generated.q[1]
+q[2] <= cntr_hhj:auto_generated.q[2]
+q[3] <= cntr_hhj:auto_generated.q[3]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Dezena_Minuto_Abertura|cntr_hhj:auto_generated
+aclr => counter_reg_bit[3].IN0
+clock => counter_reg_bit[3].CLK
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Dezena_Minuto_Abertura|cntr_hhj:auto_generated|cmpr_qgc:cmpr1
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+
+
+|Controlador|circuitoAutomatico:inst4|7447:Display_UHF
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Unidade_Hora_Fechamento
+clock => cntr_sij:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => cntr_sij:auto_generated.aclr
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_sij:auto_generated.q[0]
+q[1] <= cntr_sij:auto_generated.q[1]
+q[2] <= cntr_sij:auto_generated.q[2]
+q[3] <= cntr_sij:auto_generated.q[3]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated
+aclr => counter_reg_bit[3].IN0
+clock => counter_reg_bit[3].CLK
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|cmpr_qgc:cmpr1
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Dezena_Hora_Fechamento
+clock => cntr_chj:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => cntr_chj:auto_generated.aclr
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_chj:auto_generated.q[0]
+q[1] <= cntr_chj:auto_generated.q[1]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Dezena_Hora_Fechamento|cntr_chj:auto_generated
+aclr => counter_reg_bit[1].IN0
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|7447:Display_DHF
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|7447:Display_UMF
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Unidade_Minuto_Fechamento
+clock => cntr_sij:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => cntr_sij:auto_generated.aclr
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_sij:auto_generated.q[0]
+q[1] <= cntr_sij:auto_generated.q[1]
+q[2] <= cntr_sij:auto_generated.q[2]
+q[3] <= cntr_sij:auto_generated.q[3]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated
+aclr => counter_reg_bit[3].IN0
+clock => counter_reg_bit[3].CLK
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|cmpr_qgc:cmpr1
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+
+
+|Controlador|circuitoAutomatico:inst4|7447:Display_DMF
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Dezena_Minuto_Fechamento
+clock => cntr_hhj:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => cntr_hhj:auto_generated.aclr
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_hhj:auto_generated.q[0]
+q[1] <= cntr_hhj:auto_generated.q[1]
+q[2] <= cntr_hhj:auto_generated.q[2]
+q[3] <= cntr_hhj:auto_generated.q[3]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Dezena_Minuto_Fechamento|cntr_hhj:auto_generated
+aclr => counter_reg_bit[3].IN0
+clock => counter_reg_bit[3].CLK
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_Dezena_Minuto_Fechamento|cntr_hhj:auto_generated|cmpr_qgc:cmpr1
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COMPARE:inst23
+dataa[0] => cmpr_amg:auto_generated.dataa[0]
+dataa[1] => cmpr_amg:auto_generated.dataa[1]
+dataa[2] => cmpr_amg:auto_generated.dataa[2]
+dataa[3] => cmpr_amg:auto_generated.dataa[3]
+dataa[4] => cmpr_amg:auto_generated.dataa[4]
+datab[0] => cmpr_amg:auto_generated.datab[0]
+datab[1] => cmpr_amg:auto_generated.datab[1]
+datab[2] => cmpr_amg:auto_generated.datab[2]
+datab[3] => cmpr_amg:auto_generated.datab[3]
+datab[4] => cmpr_amg:auto_generated.datab[4]
+clock => cmpr_amg:auto_generated.clock
+aclr => cmpr_amg:auto_generated.aclr
+clken => cmpr_amg:auto_generated.clken
+alb <= <GND>
+aeb <= cmpr_amg:auto_generated.aeb
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COMPARE:inst23|cmpr_amg:auto_generated
+aclr => aeb_output_dffe0a[0].IN0
+aeb <= aeb_output_dffe0a[0].DB_MAX_OUTPUT_PORT_TYPE
+clken => aeb_output_dffe0a[0].ENA
+clock => aeb_output_dffe0a[0].CLK
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+dataa[4] => data_wire[2].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+datab[4] => data_wire[2].IN1
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_HR_A
+clock => cntr_v4j:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+data[4] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_v4j:auto_generated.q[0]
+q[1] <= cntr_v4j:auto_generated.q[1]
+q[2] <= cntr_v4j:auto_generated.q[2]
+q[3] <= cntr_v4j:auto_generated.q[3]
+q[4] <= cntr_v4j:auto_generated.q[4]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_HR_A|cntr_v4j:auto_generated
+clock => counter_reg_bit[4].CLK
+clock => counter_reg_bit[3].CLK
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= counter_reg_bit[4].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_HR_A|cntr_v4j:auto_generated|cmpr_rgc:cmpr1
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+dataa[4] => data_wire[2].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+datab[4] => data_wire[2].IN1
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COMPARE:inst24
+dataa[0] => cmpr_bmg:auto_generated.dataa[0]
+dataa[1] => cmpr_bmg:auto_generated.dataa[1]
+dataa[2] => cmpr_bmg:auto_generated.dataa[2]
+dataa[3] => cmpr_bmg:auto_generated.dataa[3]
+dataa[4] => cmpr_bmg:auto_generated.dataa[4]
+dataa[5] => cmpr_bmg:auto_generated.dataa[5]
+datab[0] => cmpr_bmg:auto_generated.datab[0]
+datab[1] => cmpr_bmg:auto_generated.datab[1]
+datab[2] => cmpr_bmg:auto_generated.datab[2]
+datab[3] => cmpr_bmg:auto_generated.datab[3]
+datab[4] => cmpr_bmg:auto_generated.datab[4]
+datab[5] => cmpr_bmg:auto_generated.datab[5]
+clock => cmpr_bmg:auto_generated.clock
+aclr => cmpr_bmg:auto_generated.aclr
+clken => cmpr_bmg:auto_generated.clken
+alb <= <GND>
+aeb <= cmpr_bmg:auto_generated.aeb
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COMPARE:inst24|cmpr_bmg:auto_generated
+aclr => aeb_output_dffe0a[0].IN0
+aeb <= aeb_output_dffe0a[0].DB_MAX_OUTPUT_PORT_TYPE
+clken => aeb_output_dffe0a[0].ENA
+clock => aeb_output_dffe0a[0].CLK
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+dataa[4] => data_wire[2].IN0
+dataa[5] => data_wire[2].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+datab[4] => data_wire[2].IN1
+datab[5] => data_wire[2].IN1
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_MIN_A
+clock => cntr_05j:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+data[4] => ~NO_FANOUT~
+data[5] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_05j:auto_generated.q[0]
+q[1] <= cntr_05j:auto_generated.q[1]
+q[2] <= cntr_05j:auto_generated.q[2]
+q[3] <= cntr_05j:auto_generated.q[3]
+q[4] <= cntr_05j:auto_generated.q[4]
+q[5] <= cntr_05j:auto_generated.q[5]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_MIN_A|cntr_05j:auto_generated
+clock => counter_reg_bit[5].CLK
+clock => counter_reg_bit[4].CLK
+clock => counter_reg_bit[3].CLK
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= counter_reg_bit[4].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= counter_reg_bit[5].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_MIN_A|cntr_05j:auto_generated|cmpr_sgc:cmpr1
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+dataa[4] => data_wire[2].IN0
+dataa[5] => data_wire[2].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+datab[4] => data_wire[2].IN1
+datab[5] => data_wire[2].IN1
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COMPARE:inst63
+dataa[0] => cmpr_amg:auto_generated.dataa[0]
+dataa[1] => cmpr_amg:auto_generated.dataa[1]
+dataa[2] => cmpr_amg:auto_generated.dataa[2]
+dataa[3] => cmpr_amg:auto_generated.dataa[3]
+dataa[4] => cmpr_amg:auto_generated.dataa[4]
+datab[0] => cmpr_amg:auto_generated.datab[0]
+datab[1] => cmpr_amg:auto_generated.datab[1]
+datab[2] => cmpr_amg:auto_generated.datab[2]
+datab[3] => cmpr_amg:auto_generated.datab[3]
+datab[4] => cmpr_amg:auto_generated.datab[4]
+clock => cmpr_amg:auto_generated.clock
+aclr => cmpr_amg:auto_generated.aclr
+clken => cmpr_amg:auto_generated.clken
+alb <= <GND>
+aeb <= cmpr_amg:auto_generated.aeb
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COMPARE:inst63|cmpr_amg:auto_generated
+aclr => aeb_output_dffe0a[0].IN0
+aeb <= aeb_output_dffe0a[0].DB_MAX_OUTPUT_PORT_TYPE
+clken => aeb_output_dffe0a[0].ENA
+clock => aeb_output_dffe0a[0].CLK
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+dataa[4] => data_wire[2].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+datab[4] => data_wire[2].IN1
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_HF
+clock => cntr_v4j:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+data[4] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_v4j:auto_generated.q[0]
+q[1] <= cntr_v4j:auto_generated.q[1]
+q[2] <= cntr_v4j:auto_generated.q[2]
+q[3] <= cntr_v4j:auto_generated.q[3]
+q[4] <= cntr_v4j:auto_generated.q[4]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_HF|cntr_v4j:auto_generated
+clock => counter_reg_bit[4].CLK
+clock => counter_reg_bit[3].CLK
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= counter_reg_bit[4].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_HF|cntr_v4j:auto_generated|cmpr_rgc:cmpr1
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+dataa[4] => data_wire[2].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+datab[4] => data_wire[2].IN1
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COMPARE:inst61
+dataa[0] => cmpr_bmg:auto_generated.dataa[0]
+dataa[1] => cmpr_bmg:auto_generated.dataa[1]
+dataa[2] => cmpr_bmg:auto_generated.dataa[2]
+dataa[3] => cmpr_bmg:auto_generated.dataa[3]
+dataa[4] => cmpr_bmg:auto_generated.dataa[4]
+dataa[5] => cmpr_bmg:auto_generated.dataa[5]
+datab[0] => cmpr_bmg:auto_generated.datab[0]
+datab[1] => cmpr_bmg:auto_generated.datab[1]
+datab[2] => cmpr_bmg:auto_generated.datab[2]
+datab[3] => cmpr_bmg:auto_generated.datab[3]
+datab[4] => cmpr_bmg:auto_generated.datab[4]
+datab[5] => cmpr_bmg:auto_generated.datab[5]
+clock => cmpr_bmg:auto_generated.clock
+aclr => cmpr_bmg:auto_generated.aclr
+clken => cmpr_bmg:auto_generated.clken
+alb <= <GND>
+aeb <= cmpr_bmg:auto_generated.aeb
+agb <= <GND>
+aleb <= <GND>
+aneb <= <GND>
+ageb <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COMPARE:inst61|cmpr_bmg:auto_generated
+aclr => aeb_output_dffe0a[0].IN0
+aeb <= aeb_output_dffe0a[0].DB_MAX_OUTPUT_PORT_TYPE
+clken => aeb_output_dffe0a[0].ENA
+clock => aeb_output_dffe0a[0].CLK
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+dataa[4] => data_wire[2].IN0
+dataa[5] => data_wire[2].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+datab[4] => data_wire[2].IN1
+datab[5] => data_wire[2].IN1
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_MIN_F
+clock => cntr_05j:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+data[3] => ~NO_FANOUT~
+data[4] => ~NO_FANOUT~
+data[5] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_05j:auto_generated.q[0]
+q[1] <= cntr_05j:auto_generated.q[1]
+q[2] <= cntr_05j:auto_generated.q[2]
+q[3] <= cntr_05j:auto_generated.q[3]
+q[4] <= cntr_05j:auto_generated.q[4]
+q[5] <= cntr_05j:auto_generated.q[5]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_MIN_F|cntr_05j:auto_generated
+clock => counter_reg_bit[5].CLK
+clock => counter_reg_bit[4].CLK
+clock => counter_reg_bit[3].CLK
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= counter_reg_bit[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= counter_reg_bit[4].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= counter_reg_bit[5].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|circuitoAutomatico:inst4|LPM_COUNTER:CONTADOR_MIN_F|cntr_05j:auto_generated|cmpr_sgc:cmpr1
+aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => data_wire[0].IN0
+dataa[1] => data_wire[0].IN0
+dataa[2] => data_wire[1].IN0
+dataa[3] => data_wire[1].IN0
+dataa[4] => data_wire[2].IN0
+dataa[5] => data_wire[2].IN0
+datab[0] => data_wire[0].IN1
+datab[1] => data_wire[0].IN1
+datab[2] => data_wire[1].IN1
+datab[3] => data_wire[1].IN1
+datab[4] => data_wire[2].IN1
+datab[5] => data_wire[2].IN1
+
+
+|Controlador|BUSMUX:MOTOR
+dataa[0] => lpm_mux:$00000.data[0][0]
+datab[0] => lpm_mux:$00000.data[1][0]
+sel => lpm_mux:$00000.sel[0]
+result[0] <= lpm_mux:$00000.result[0]
+
+
+|Controlador|BUSMUX:MOTOR|lpm_mux:$00000
+data[0][0] => mux_7rc:auto_generated.data[0]
+data[1][0] => mux_7rc:auto_generated.data[1]
+sel[0] => mux_7rc:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_7rc:auto_generated.result[0]
+
+
+|Controlador|BUSMUX:MOTOR|lpm_mux:$00000|mux_7rc:auto_generated
+data[0] => result_node[0].IN1
+data[1] => result_node[0].IN1
+result[0] <= result_node[0].DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => result_node[0].IN0
+sel[0] => _.IN0
+
+
+|Controlador|controleAutomatico:inst3
+M <= ffMotor.DB_MAX_OUTPUT_PORT_TYPE
+clk => ffMotor.CLK
+clk => ffSentidoMotor.CLK
+FF => inst25.IN0
+FF => inst8.IN0
+FF => inst28.IN0
+RL => inst10.IN0
+RL => inst6.IN0
+RL => inst27.IN0
+RL => inst23.IN0
+RL => inst22.IN0
+RD => inst11.IN0
+RD => inst21.IN1
+RD => inst23.IN1
+FA => inst13.IN0
+FA => inst26.IN0
+SM <= ffSentidoMotor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|controleManual:inst
+M <= FFMotor.DB_MAX_OUTPUT_PORT_TYPE
+clk => FFMotor.CLK
+clk => FFsentidoMotor.CLK
+FA => inst49.IN0
+FA => inst42.IN0
+BJ => inst41.IN0
+BJ => inst39.IN0
+BJ => inst45.IN0
+BJ => inst46.IN0
+FF => inst37.IN0
+FF => inst52.IN0
+FF => inst48.IN0
+BMO => inst1.IN1
+BMO => inst5.IN1
+SM <= FFsentidoMotor.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlador|BUSMUX:SENTIDO_MOTOR
+dataa[0] => lpm_mux:$00000.data[0][0]
+datab[0] => lpm_mux:$00000.data[1][0]
+sel => lpm_mux:$00000.sel[0]
+result[0] <= lpm_mux:$00000.result[0]
+
+
+|Controlador|BUSMUX:SENTIDO_MOTOR|lpm_mux:$00000
+data[0][0] => mux_7rc:auto_generated.data[0]
+data[1][0] => mux_7rc:auto_generated.data[1]
+sel[0] => mux_7rc:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_7rc:auto_generated.result[0]
+
+
+|Controlador|BUSMUX:SENTIDO_MOTOR|lpm_mux:$00000|mux_7rc:auto_generated
+data[0] => result_node[0].IN1
+data[1] => result_node[0].IN1
+result[0] <= result_node[0].DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => result_node[0].IN0
+sel[0] => _.IN0
+
+

@@ -1,0 +1,1214 @@
+$comment
+	File created using the following command:
+		vcd file Controlador.msim.vcd -direction
+$end
+$date
+	Wed Jun 14 17:51:30 2023
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module Controlador_vlg_vec_tst $end
+$var reg 1 ! BJ $end
+$var reg 1 " BMO $end
+$var reg 1 # CFG $end
+$var reg 1 $ CLK $end
+$var reg 1 % FA $end
+$var reg 1 & FF $end
+$var reg 5 ' HR_ATUAL [4:0] $end
+$var reg 1 ( ICHA $end
+$var reg 1 ) ICHF $end
+$var reg 1 * ICMA $end
+$var reg 1 + ICMF $end
+$var reg 6 , MIN_ATUAL [5:0] $end
+$var wire 1 - mAutomatico $end
+$var wire 1 . mManual $end
+$var wire 1 / smAutomatico $end
+$var wire 1 0 smManual $end
+
+$scope module i1 $end
+$var wire 1 1 gnd $end
+$var wire 1 2 vcc $end
+$var wire 1 3 unknown $end
+$var tri1 1 4 devclrn $end
+$var tri1 1 5 devpor $end
+$var tri1 1 6 devoe $end
+$var wire 1 7 mManual~output_o $end
+$var wire 1 8 smManual~output_o $end
+$var wire 1 9 mAutomatico~output_o $end
+$var wire 1 : smAutomatico~output_o $end
+$var wire 1 ; CLK~input_o $end
+$var wire 1 < CLK~inputclkctrl_outclk $end
+$var wire 1 = BJ~input_o $end
+$var wire 1 > FF~input_o $end
+$var wire 1 ? FA~input_o $end
+$var wire 1 @ BMO~input_o $end
+$var wire 1 A inst|inst1~0_combout $end
+$var wire 1 B inst|inst1~1_combout $end
+$var wire 1 C inst|FFsentidoMotor~q $end
+$var wire 1 D inst|inst5~0_combout $end
+$var wire 1 E inst|inst5~1_combout $end
+$var wire 1 F inst|FFMotor~q $end
+$var wire 1 G CFG~input_o $end
+$var wire 1 H ICHA~input_o $end
+$var wire 1 I inst4|inst15~combout $end
+$var wire 1 J inst4|inst15~clkctrl_outclk $end
+$var wire 1 K inst4|CONTADOR_HR_A|auto_generated|counter_comb_bita0~combout $end
+$var wire 1 L ~GND~combout $end
+$var wire 1 M inst4|CONTADOR_HR_A|auto_generated|counter_comb_bita1~COUT $end
+$var wire 1 N inst4|CONTADOR_HR_A|auto_generated|counter_comb_bita2~combout $end
+$var wire 1 O inst4|CONTADOR_HR_A|auto_generated|counter_comb_bita2~COUT $end
+$var wire 1 P inst4|CONTADOR_HR_A|auto_generated|counter_comb_bita3~combout $end
+$var wire 1 Q inst4|CONTADOR_HR_A|auto_generated|counter_comb_bita3~COUT $end
+$var wire 1 R inst4|CONTADOR_HR_A|auto_generated|counter_comb_bita4~combout $end
+$var wire 1 S inst4|CONTADOR_HR_A|auto_generated|counter_comb_bita4~COUT $end
+$var wire 1 T inst4|CONTADOR_HR_A|auto_generated|counter_comb_bita4~0_combout $end
+$var wire 1 U inst4|CONTADOR_HR_A|auto_generated|cmpr1|aneb_result_wire[0]~0_combout $end
+$var wire 1 V inst4|CONTADOR_HR_A|auto_generated|cout_actual~combout $end
+$var wire 1 W inst4|CONTADOR_HR_A|auto_generated|counter_comb_bita0~COUT $end
+$var wire 1 X inst4|CONTADOR_HR_A|auto_generated|counter_comb_bita1~combout $end
+$var wire 1 Y HR_ATUAL[1]~input_o $end
+$var wire 1 Z HR_ATUAL[3]~input_o $end
+$var wire 1 [ HR_ATUAL[0]~input_o $end
+$var wire 1 \ inst4|inst23|auto_generated|aeb_output_dffe_d_wire0w[0]~1_combout $end
+$var wire 1 ] HR_ATUAL[2]~input_o $end
+$var wire 1 ^ HR_ATUAL[4]~input_o $end
+$var wire 1 _ inst4|inst23|auto_generated|aeb_output_dffe_d_wire0w[0]~0_combout $end
+$var wire 1 ` inst4|inst23|auto_generated|aeb_output_dffe_d_wire0w[0]~2_combout $end
+$var wire 1 a inst4|inst28~combout $end
+$var wire 1 b MIN_ATUAL[3]~input_o $end
+$var wire 1 c MIN_ATUAL[2]~input_o $end
+$var wire 1 d ICMA~input_o $end
+$var wire 1 e inst4|inst~combout $end
+$var wire 1 f inst4|inst~clkctrl_outclk $end
+$var wire 1 g inst4|CONTADOR_MIN_A|auto_generated|counter_comb_bita0~combout $end
+$var wire 1 h inst4|CONTADOR_MIN_A|auto_generated|counter_comb_bita2~COUT $end
+$var wire 1 i inst4|CONTADOR_MIN_A|auto_generated|counter_comb_bita3~combout $end
+$var wire 1 j inst4|CONTADOR_MIN_A|auto_generated|counter_comb_bita3~COUT $end
+$var wire 1 k inst4|CONTADOR_MIN_A|auto_generated|counter_comb_bita4~combout $end
+$var wire 1 l inst4|CONTADOR_MIN_A|auto_generated|counter_comb_bita4~COUT $end
+$var wire 1 m inst4|CONTADOR_MIN_A|auto_generated|counter_comb_bita5~combout $end
+$var wire 1 n inst4|CONTADOR_MIN_A|auto_generated|cmpr1|aneb_result_wire[0]~0_combout $end
+$var wire 1 o inst4|CONTADOR_MIN_A|auto_generated|counter_comb_bita5~COUT $end
+$var wire 1 p inst4|CONTADOR_MIN_A|auto_generated|counter_comb_bita5~0_combout $end
+$var wire 1 q inst4|CONTADOR_MIN_A|auto_generated|cout_actual~combout $end
+$var wire 1 r inst4|CONTADOR_MIN_A|auto_generated|counter_comb_bita0~COUT $end
+$var wire 1 s inst4|CONTADOR_MIN_A|auto_generated|counter_comb_bita1~combout $end
+$var wire 1 t inst4|CONTADOR_MIN_A|auto_generated|counter_comb_bita1~COUT $end
+$var wire 1 u inst4|CONTADOR_MIN_A|auto_generated|counter_comb_bita2~combout $end
+$var wire 1 v inst4|inst24|auto_generated|aeb_output_dffe_d_wire0w[0]~1_combout $end
+$var wire 1 w MIN_ATUAL[1]~input_o $end
+$var wire 1 x MIN_ATUAL[0]~input_o $end
+$var wire 1 y inst4|inst24|auto_generated|aeb_output_dffe_d_wire0w[0]~2_combout $end
+$var wire 1 z MIN_ATUAL[5]~input_o $end
+$var wire 1 { MIN_ATUAL[4]~input_o $end
+$var wire 1 | inst4|inst24|auto_generated|aeb_output_dffe_d_wire0w[0]~0_combout $end
+$var wire 1 } inst4|inst24|auto_generated|aeb_output_dffe_d_wire0w[0]~3_combout $end
+$var wire 1 ~ ICMF~input_o $end
+$var wire 1 !! inst4|inst17~combout $end
+$var wire 1 "! inst4|inst17~clkctrl_outclk $end
+$var wire 1 #! inst4|CONTADOR_MIN_F|auto_generated|counter_comb_bita0~combout $end
+$var wire 1 $! inst4|CONTADOR_MIN_F|auto_generated|counter_comb_bita1~COUT $end
+$var wire 1 %! inst4|CONTADOR_MIN_F|auto_generated|counter_comb_bita2~combout $end
+$var wire 1 &! inst4|CONTADOR_MIN_F|auto_generated|counter_comb_bita2~COUT $end
+$var wire 1 '! inst4|CONTADOR_MIN_F|auto_generated|counter_comb_bita3~combout $end
+$var wire 1 (! inst4|CONTADOR_MIN_F|auto_generated|counter_comb_bita3~COUT $end
+$var wire 1 )! inst4|CONTADOR_MIN_F|auto_generated|counter_comb_bita4~combout $end
+$var wire 1 *! inst4|CONTADOR_MIN_F|auto_generated|counter_comb_bita4~COUT $end
+$var wire 1 +! inst4|CONTADOR_MIN_F|auto_generated|counter_comb_bita5~combout $end
+$var wire 1 ,! inst4|CONTADOR_MIN_F|auto_generated|cmpr1|aneb_result_wire[0]~0_combout $end
+$var wire 1 -! inst4|CONTADOR_MIN_F|auto_generated|counter_comb_bita5~COUT $end
+$var wire 1 .! inst4|CONTADOR_MIN_F|auto_generated|counter_comb_bita5~0_combout $end
+$var wire 1 /! inst4|CONTADOR_MIN_F|auto_generated|cout_actual~combout $end
+$var wire 1 0! inst4|CONTADOR_MIN_F|auto_generated|counter_comb_bita0~COUT $end
+$var wire 1 1! inst4|CONTADOR_MIN_F|auto_generated|counter_comb_bita1~combout $end
+$var wire 1 2! inst4|inst61|auto_generated|aeb_output_dffe_d_wire0w[0]~2_combout $end
+$var wire 1 3! inst4|inst61|auto_generated|aeb_output_dffe_d_wire0w[0]~1_combout $end
+$var wire 1 4! inst4|inst61|auto_generated|aeb_output_dffe_d_wire0w[0]~0_combout $end
+$var wire 1 5! inst4|inst61|auto_generated|aeb_output_dffe_d_wire0w[0]~3_combout $end
+$var wire 1 6! ICHF~input_o $end
+$var wire 1 7! inst4|inst18~combout $end
+$var wire 1 8! inst4|inst18~clkctrl_outclk $end
+$var wire 1 9! inst4|CONTADOR_HF|auto_generated|counter_comb_bita0~combout $end
+$var wire 1 :! inst4|CONTADOR_HF|auto_generated|counter_comb_bita1~COUT $end
+$var wire 1 ;! inst4|CONTADOR_HF|auto_generated|counter_comb_bita2~combout $end
+$var wire 1 <! inst4|CONTADOR_HF|auto_generated|counter_comb_bita2~COUT $end
+$var wire 1 =! inst4|CONTADOR_HF|auto_generated|counter_comb_bita3~combout $end
+$var wire 1 >! inst4|CONTADOR_HF|auto_generated|counter_comb_bita3~COUT $end
+$var wire 1 ?! inst4|CONTADOR_HF|auto_generated|counter_comb_bita4~combout $end
+$var wire 1 @! inst4|CONTADOR_HF|auto_generated|counter_comb_bita4~COUT $end
+$var wire 1 A! inst4|CONTADOR_HF|auto_generated|counter_comb_bita4~0_combout $end
+$var wire 1 B! inst4|CONTADOR_HF|auto_generated|cmpr1|aneb_result_wire[0]~0_combout $end
+$var wire 1 C! inst4|CONTADOR_HF|auto_generated|cout_actual~combout $end
+$var wire 1 D! inst4|CONTADOR_HF|auto_generated|counter_comb_bita0~COUT $end
+$var wire 1 E! inst4|CONTADOR_HF|auto_generated|counter_comb_bita1~combout $end
+$var wire 1 F! inst4|inst63|auto_generated|aeb_output_dffe_d_wire0w[0]~0_combout $end
+$var wire 1 G! inst4|inst63|auto_generated|aeb_output_dffe_d_wire0w[0]~1_combout $end
+$var wire 1 H! inst4|inst63|auto_generated|aeb_output_dffe_d_wire0w[0]~2_combout $end
+$var wire 1 I! inst4|inst49~combout $end
+$var wire 1 J! inst3|inst10~4_combout $end
+$var wire 1 K! inst4|inst42~combout $end
+$var wire 1 L! inst3|inst21~4_combout $end
+$var wire 1 M! inst3|inst5~0_combout $end
+$var wire 1 N! inst3|ffSentidoMotor~q $end
+$var wire 1 O! inst3|inst17~0_combout $end
+$var wire 1 P! inst3|inst17~1_combout $end
+$var wire 1 Q! inst3|inst17~2_combout $end
+$var wire 1 R! inst3|ffMotor~q $end
+$var wire 1 S! inst4|CONTADOR_MIN_F|auto_generated|counter_reg_bit [5] $end
+$var wire 1 T! inst4|CONTADOR_MIN_F|auto_generated|counter_reg_bit [4] $end
+$var wire 1 U! inst4|CONTADOR_MIN_F|auto_generated|counter_reg_bit [3] $end
+$var wire 1 V! inst4|CONTADOR_MIN_F|auto_generated|counter_reg_bit [2] $end
+$var wire 1 W! inst4|CONTADOR_MIN_F|auto_generated|counter_reg_bit [1] $end
+$var wire 1 X! inst4|CONTADOR_MIN_F|auto_generated|counter_reg_bit [0] $end
+$var wire 1 Y! inst4|CONTADOR_HR_A|auto_generated|counter_reg_bit [4] $end
+$var wire 1 Z! inst4|CONTADOR_HR_A|auto_generated|counter_reg_bit [3] $end
+$var wire 1 [! inst4|CONTADOR_HR_A|auto_generated|counter_reg_bit [2] $end
+$var wire 1 \! inst4|CONTADOR_HR_A|auto_generated|counter_reg_bit [1] $end
+$var wire 1 ]! inst4|CONTADOR_HR_A|auto_generated|counter_reg_bit [0] $end
+$var wire 1 ^! inst4|CONTADOR_MIN_A|auto_generated|counter_reg_bit [5] $end
+$var wire 1 _! inst4|CONTADOR_MIN_A|auto_generated|counter_reg_bit [4] $end
+$var wire 1 `! inst4|CONTADOR_MIN_A|auto_generated|counter_reg_bit [3] $end
+$var wire 1 a! inst4|CONTADOR_MIN_A|auto_generated|counter_reg_bit [2] $end
+$var wire 1 b! inst4|CONTADOR_MIN_A|auto_generated|counter_reg_bit [1] $end
+$var wire 1 c! inst4|CONTADOR_MIN_A|auto_generated|counter_reg_bit [0] $end
+$var wire 1 d! inst4|inst24|auto_generated|aeb_output_dffe0a [0] $end
+$var wire 1 e! inst4|CONTADOR_HF|auto_generated|counter_reg_bit [4] $end
+$var wire 1 f! inst4|CONTADOR_HF|auto_generated|counter_reg_bit [3] $end
+$var wire 1 g! inst4|CONTADOR_HF|auto_generated|counter_reg_bit [2] $end
+$var wire 1 h! inst4|CONTADOR_HF|auto_generated|counter_reg_bit [1] $end
+$var wire 1 i! inst4|CONTADOR_HF|auto_generated|counter_reg_bit [0] $end
+$var wire 1 j! inst4|inst23|auto_generated|aeb_output_dffe0a [0] $end
+$var wire 1 k! inst4|inst63|auto_generated|aeb_output_dffe0a [0] $end
+$var wire 1 l! inst4|inst61|auto_generated|aeb_output_dffe0a [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+x#
+0$
+0%
+0&
+bx '
+x(
+x)
+x*
+x+
+bx ,
+0-
+0.
+0/
+00
+01
+12
+x3
+14
+15
+16
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+1@
+0A
+0B
+0C
+0D
+0E
+0F
+xG
+xH
+0I
+0J
+1K
+0L
+1M
+0N
+0O
+0P
+1Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+xY
+xZ
+x[
+x\
+x]
+x^
+x_
+x`
+1a
+xb
+xc
+xd
+0e
+0f
+1g
+0h
+0i
+1j
+0k
+0l
+0m
+0n
+1o
+0p
+0q
+0r
+0s
+1t
+0u
+xv
+xw
+xx
+xy
+xz
+x{
+x|
+x}
+x~
+0!!
+0"!
+1#!
+1$!
+0%!
+0&!
+0'!
+1(!
+0)!
+0*!
+0+!
+0,!
+1-!
+0.!
+0/!
+00!
+01!
+x2!
+x3!
+x4!
+x5!
+x6!
+07!
+08!
+19!
+1:!
+0;!
+0<!
+0=!
+1>!
+0?!
+0@!
+0A!
+0B!
+0C!
+0D!
+0E!
+xF!
+xG!
+xH!
+0I!
+0J!
+0K!
+0L!
+0M!
+0N!
+1O!
+0P!
+0Q!
+0R!
+0X!
+0W!
+0V!
+0U!
+0T!
+0S!
+0]!
+0\!
+0[!
+0Z!
+0Y!
+0c!
+0b!
+0a!
+0`!
+0_!
+0^!
+0d!
+0i!
+0h!
+0g!
+0f!
+0e!
+0j!
+0k!
+0l!
+$end
+#5000
+1$
+1;
+1<
+#10000
+0$
+0;
+0<
+#15000
+1$
+1;
+1<
+#20000
+1!
+0$
+1=
+0;
+0<
+1A
+1E
+1B
+#25000
+1$
+1;
+1<
+1F
+1C
+18
+17
+0A
+1.
+10
+0B
+1B
+#30000
+0$
+0;
+0<
+#35000
+1$
+1;
+1<
+#40000
+0$
+0;
+0<
+#45000
+1$
+1;
+1<
+#50000
+0$
+0;
+0<
+#55000
+1$
+1;
+1<
+#60000
+0$
+0;
+0<
+#65000
+1$
+1;
+1<
+#70000
+0$
+0;
+0<
+#75000
+1$
+1;
+1<
+#80000
+0$
+0;
+0<
+#85000
+1$
+1;
+1<
+#90000
+0$
+0;
+0<
+#95000
+1$
+1;
+1<
+#100000
+0$
+0;
+0<
+#105000
+1$
+1;
+1<
+#110000
+0$
+0;
+0<
+#115000
+1$
+1;
+1<
+#120000
+0$
+0;
+0<
+#125000
+1$
+1;
+1<
+#130000
+0$
+0;
+0<
+#135000
+1$
+1;
+1<
+#140000
+0$
+0;
+0<
+#145000
+1$
+1;
+1<
+#150000
+0$
+0;
+0<
+#155000
+1$
+1;
+1<
+#160000
+0$
+0;
+0<
+#165000
+1$
+1;
+1<
+#170000
+0$
+0;
+0<
+#175000
+1$
+1;
+1<
+#180000
+0$
+0;
+0<
+#185000
+1$
+1;
+1<
+#190000
+0!
+0$
+0=
+0;
+0<
+#195000
+1$
+1;
+1<
+#200000
+0$
+0;
+0<
+#205000
+1$
+1;
+1<
+#210000
+0$
+0;
+0<
+#215000
+1$
+1;
+1<
+#220000
+0$
+0;
+0<
+#225000
+1$
+1;
+1<
+#230000
+0$
+0;
+0<
+#235000
+1$
+1;
+1<
+#240000
+0$
+0;
+0<
+#245000
+1$
+1;
+1<
+#250000
+0$
+0;
+0<
+#255000
+1$
+1;
+1<
+#260000
+0$
+0;
+0<
+#265000
+1$
+1;
+1<
+#270000
+1%
+0$
+1?
+0;
+0<
+1D
+0E
+#275000
+1$
+1;
+1<
+0F
+07
+0.
+#280000
+0$
+0;
+0<
+#285000
+1$
+1;
+1<
+#290000
+0$
+0;
+0<
+#295000
+1$
+1;
+1<
+#300000
+0$
+0;
+0<
+#305000
+1$
+1;
+1<
+#310000
+0$
+0;
+0<
+#315000
+1$
+1;
+1<
+#320000
+0$
+0;
+0<
+#325000
+1$
+1;
+1<
+#330000
+0$
+0;
+0<
+#335000
+1$
+1;
+1<
+#340000
+0$
+0;
+0<
+#345000
+1$
+1;
+1<
+#350000
+0$
+0;
+0<
+#355000
+1$
+1;
+1<
+#360000
+0$
+0;
+0<
+#365000
+1$
+1;
+1<
+#370000
+0$
+0;
+0<
+#375000
+1$
+1;
+1<
+#380000
+0$
+0;
+0<
+#385000
+1$
+1;
+1<
+#390000
+0$
+0;
+0<
+#395000
+1$
+1;
+1<
+#400000
+0$
+0;
+0<
+#405000
+1$
+1;
+1<
+#410000
+0$
+0;
+0<
+#415000
+1$
+1;
+1<
+#420000
+0$
+0;
+0<
+#425000
+1$
+1;
+1<
+#430000
+0$
+0;
+0<
+#435000
+1$
+1;
+1<
+#440000
+0$
+0;
+0<
+#445000
+1$
+1;
+1<
+#450000
+0$
+0;
+0<
+#455000
+1$
+1;
+1<
+#460000
+0$
+0;
+0<
+#465000
+1$
+1;
+1<
+#470000
+0$
+0;
+0<
+#475000
+1$
+1;
+1<
+#480000
+0$
+0;
+0<
+#485000
+1$
+1;
+1<
+#490000
+0$
+0;
+0<
+#495000
+1$
+1;
+1<
+#500000
+0$
+0;
+0<
+#505000
+1$
+1;
+1<
+#510000
+0$
+0;
+0<
+#515000
+1$
+1;
+1<
+#520000
+0$
+0;
+0<
+#525000
+1$
+1;
+1<
+#530000
+0$
+0;
+0<
+#535000
+1$
+1;
+1<
+#540000
+0%
+0$
+0?
+0;
+0<
+0D
+#545000
+1$
+1;
+1<
+#550000
+0$
+0;
+0<
+#555000
+1$
+1;
+1<
+#560000
+0$
+0;
+0<
+#565000
+1$
+1;
+1<
+#570000
+0$
+0;
+0<
+#575000
+1$
+1;
+1<
+#580000
+0$
+0;
+0<
+#585000
+1$
+1;
+1<
+#590000
+0$
+0;
+0<
+#595000
+1$
+1;
+1<
+#600000
+0$
+0;
+0<
+#605000
+1$
+1;
+1<
+#610000
+0$
+0;
+0<
+#615000
+1$
+1;
+1<
+#620000
+0$
+0;
+0<
+#625000
+1$
+1;
+1<
+#630000
+0$
+0;
+0<
+#635000
+1$
+1;
+1<
+#640000
+0$
+0;
+0<
+#645000
+1$
+1;
+1<
+#650000
+0$
+0;
+0<
+#655000
+1$
+1;
+1<
+#660000
+1!
+0$
+1=
+0;
+0<
+1A
+1E
+0B
+#665000
+1$
+1;
+1<
+1F
+0C
+08
+17
+0A
+1.
+00
+1B
+0B
+#670000
+0$
+0;
+0<
+#675000
+1$
+1;
+1<
+#680000
+0$
+0;
+0<
+#685000
+1$
+1;
+1<
+#690000
+0$
+0;
+0<
+#695000
+1$
+1;
+1<
+#700000
+0$
+0;
+0<
+#705000
+1$
+1;
+1<
+#710000
+0$
+0;
+0<
+#715000
+1$
+1;
+1<
+#720000
+0$
+0;
+0<
+#725000
+1$
+1;
+1<
+#730000
+0$
+0;
+0<
+#735000
+1$
+1;
+1<
+#740000
+0!
+0$
+0=
+0;
+0<
+#745000
+1$
+1;
+1<
+#750000
+0$
+0;
+0<
+#755000
+1$
+1;
+1<
+#760000
+0$
+0;
+0<
+#765000
+1$
+1;
+1<
+#770000
+0$
+0;
+0<
+#775000
+1$
+1;
+1<
+#780000
+0$
+0;
+0<
+#785000
+1$
+1;
+1<
+#790000
+0$
+0;
+0<
+#795000
+1$
+1;
+1<
+#800000
+0$
+0;
+0<
+#805000
+1$
+1;
+1<
+#810000
+0$
+0;
+0<
+#815000
+1$
+1;
+1<
+#820000
+0$
+0;
+0<
+#825000
+1$
+1;
+1<
+#830000
+1&
+0$
+1>
+0;
+0<
+0O!
+1D
+0E
+#835000
+1$
+1;
+1<
+0F
+07
+0.
+#840000
+0$
+0;
+0<
+#845000
+1$
+1;
+1<
+#850000
+0$
+0;
+0<
+#855000
+1$
+1;
+1<
+#860000
+0$
+0;
+0<
+#865000
+1$
+1;
+1<
+#870000
+0$
+0;
+0<
+#875000
+1$
+1;
+1<
+#880000
+0$
+0;
+0<
+#885000
+1$
+1;
+1<
+#890000
+0$
+0;
+0<
+#895000
+1$
+1;
+1<
+#900000
+0&
+0$
+0>
+0;
+0<
+1O!
+0D
+#905000
+1$
+1;
+1<
+#910000
+0$
+0;
+0<
+#915000
+1$
+1;
+1<
+#920000
+0$
+0;
+0<
+#925000
+1$
+1;
+1<
+#930000
+0$
+0;
+0<
+#935000
+1$
+1;
+1<
+#940000
+0$
+0;
+0<
+#945000
+1$
+1;
+1<
+#950000
+0$
+0;
+0<
+#955000
+1$
+1;
+1<
+#960000
+0$
+0;
+0<
+#965000
+1$
+1;
+1<
+#970000
+0$
+0;
+0<
+#975000
+1$
+1;
+1<
+#980000
+0$
+0;
+0<
+#985000
+1$
+1;
+1<
+#990000
+0$
+0;
+0<
+#995000
+1$
+1;
+1<
+#1000000

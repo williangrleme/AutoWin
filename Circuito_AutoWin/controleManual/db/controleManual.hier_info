@@ -1,0 +1,18 @@
+|controleManual
+M <= FFMotor.DB_MAX_OUTPUT_PORT_TYPE
+clk => FFMotor.CLK
+clk => FFsentidoMotor.CLK
+FA => inst49.IN0
+FA => inst42.IN0
+BJ => inst41.IN0
+BJ => inst39.IN0
+BJ => inst45.IN0
+BJ => inst46.IN0
+FF => inst37.IN0
+FF => inst52.IN0
+FF => inst48.IN0
+BMO => inst1.IN1
+BMO => inst5.IN1
+SM <= FFsentidoMotor.DB_MAX_OUTPUT_PORT_TYPE
+
+

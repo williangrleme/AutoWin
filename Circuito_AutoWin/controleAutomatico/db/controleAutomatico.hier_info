@@ -1,0 +1,20 @@
+|controleAutomatico
+M <= ffMotor.DB_MAX_OUTPUT_PORT_TYPE
+clk => ffMotor.CLK
+clk => ffSentidoMotor.CLK
+FF => inst25.IN0
+FF => inst8.IN0
+FF => inst28.IN0
+RL => inst10.IN0
+RL => inst6.IN0
+RL => inst27.IN0
+RL => inst23.IN0
+RL => inst22.IN0
+RD => inst11.IN0
+RD => inst21.IN1
+RD => inst23.IN1
+FA => inst13.IN0
+FA => inst26.IN0
+SM <= ffSentidoMotor.DB_MAX_OUTPUT_PORT_TYPE
+
+

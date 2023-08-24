@@ -1,0 +1,365 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'BMO'
+Slack : -10.582
+TNS   : -167.304
+
+Type  : Slow 1200mV 85C Model Setup 'CLK_att'
+Slack : -5.802
+TNS   : -17.855
+
+Type  : Slow 1200mV 85C Model Setup 'lpm_counter:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -2.356
+TNS   : -9.424
+
+Type  : Slow 1200mV 85C Model Setup 'lpm_counter:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -2.345
+TNS   : -9.380
+
+Type  : Slow 1200mV 85C Model Setup 'lpm_counter:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.724
+TNS   : -0.970
+
+Type  : Slow 1200mV 85C Model Setup 'lpm_counter:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.717
+TNS   : -0.968
+
+Type  : Slow 1200mV 85C Model Hold 'lpm_counter:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.449
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'BMO'
+Slack : 0.648
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lpm_counter:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.659
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lpm_counter:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.665
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lpm_counter:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.682
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLK_att'
+Slack : 2.983
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'BMO'
+Slack : -7.045
+TNS   : -66.202
+
+Type  : Slow 1200mV 85C Model Recovery 'CLK_att'
+Slack : -2.149
+TNS   : -8.173
+
+Type  : Slow 1200mV 85C Model Recovery 'lpm_counter:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -2.045
+TNS   : -4.090
+
+Type  : Slow 1200mV 85C Model Recovery 'lpm_counter:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.827
+TNS   : -3.654
+
+Type  : Slow 1200mV 85C Model Recovery 'lpm_counter:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.388
+TNS   : -5.552
+
+Type  : Slow 1200mV 85C Model Recovery 'lpm_counter:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.118
+TNS   : -4.472
+
+Type  : Slow 1200mV 85C Model Removal 'BMO'
+Slack : -3.254
+TNS   : -7.122
+
+Type  : Slow 1200mV 85C Model Removal 'lpm_counter:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.299
+TNS   : -0.598
+
+Type  : Slow 1200mV 85C Model Removal 'lpm_counter:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.065
+TNS   : -0.130
+
+Type  : Slow 1200mV 85C Model Removal 'lpm_counter:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 1.378
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'lpm_counter:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 1.397
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'CLK_att'
+Slack : 1.793
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'BMO'
+Slack : -3.000
+TNS   : -52.102
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK_att'
+Slack : -3.000
+TNS   : -8.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lpm_counter:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lpm_counter:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lpm_counter:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.285
+TNS   : -2.570
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lpm_counter:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.285
+TNS   : -2.570
+
+Type  : Slow 1200mV 0C Model Setup 'BMO'
+Slack : -9.740
+TNS   : -150.909
+
+Type  : Slow 1200mV 0C Model Setup 'CLK_att'
+Slack : -5.231
+TNS   : -15.936
+
+Type  : Slow 1200mV 0C Model Setup 'lpm_counter:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -2.027
+TNS   : -8.108
+
+Type  : Slow 1200mV 0C Model Setup 'lpm_counter:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -2.017
+TNS   : -8.068
+
+Type  : Slow 1200mV 0C Model Setup 'lpm_counter:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.559
+TNS   : -0.679
+
+Type  : Slow 1200mV 0C Model Setup 'lpm_counter:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.550
+TNS   : -0.671
+
+Type  : Slow 1200mV 0C Model Hold 'lpm_counter:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'BMO'
+Slack : 0.593
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lpm_counter:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.603
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lpm_counter:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.605
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lpm_counter:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.619
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLK_att'
+Slack : 2.742
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'BMO'
+Slack : -6.564
+TNS   : -59.422
+
+Type  : Slow 1200mV 0C Model Recovery 'CLK_att'
+Slack : -1.877
+TNS   : -7.139
+
+Type  : Slow 1200mV 0C Model Recovery 'lpm_counter:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.789
+TNS   : -3.578
+
+Type  : Slow 1200mV 0C Model Recovery 'lpm_counter:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.580
+TNS   : -3.160
+
+Type  : Slow 1200mV 0C Model Recovery 'lpm_counter:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.146
+TNS   : -4.584
+
+Type  : Slow 1200mV 0C Model Recovery 'lpm_counter:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.912
+TNS   : -3.648
+
+Type  : Slow 1200mV 0C Model Removal 'BMO'
+Slack : -2.971
+TNS   : -6.646
+
+Type  : Slow 1200mV 0C Model Removal 'lpm_counter:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.250
+TNS   : -0.500
+
+Type  : Slow 1200mV 0C Model Removal 'lpm_counter:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.055
+TNS   : -0.110
+
+Type  : Slow 1200mV 0C Model Removal 'lpm_counter:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 1.252
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'lpm_counter:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 1.262
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CLK_att'
+Slack : 1.747
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'BMO'
+Slack : -3.000
+TNS   : -51.830
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK_att'
+Slack : -3.000
+TNS   : -8.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lpm_counter:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lpm_counter:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lpm_counter:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.285
+TNS   : -2.570
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lpm_counter:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.285
+TNS   : -2.570
+
+Type  : Fast 1200mV 0C Model Setup 'BMO'
+Slack : -5.412
+TNS   : -68.480
+
+Type  : Fast 1200mV 0C Model Setup 'CLK_att'
+Slack : -3.010
+TNS   : -9.287
+
+Type  : Fast 1200mV 0C Model Setup 'lpm_counter:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.609
+TNS   : -2.436
+
+Type  : Fast 1200mV 0C Model Setup 'lpm_counter:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.601
+TNS   : -2.404
+
+Type  : Fast 1200mV 0C Model Setup 'lpm_counter:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'lpm_counter:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lpm_counter:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'BMO'
+Slack : 0.295
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lpm_counter:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lpm_counter:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lpm_counter:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK_att'
+Slack : 1.970
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'BMO'
+Slack : -3.435
+TNS   : -27.358
+
+Type  : Fast 1200mV 0C Model Recovery 'CLK_att'
+Slack : -1.226
+TNS   : -4.709
+
+Type  : Fast 1200mV 0C Model Recovery 'lpm_counter:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.450
+TNS   : -0.900
+
+Type  : Fast 1200mV 0C Model Recovery 'lpm_counter:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.346
+TNS   : -0.692
+
+Type  : Fast 1200mV 0C Model Recovery 'lpm_counter:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.194
+TNS   : -0.776
+
+Type  : Fast 1200mV 0C Model Recovery 'lpm_counter:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.041
+TNS   : -0.164
+
+Type  : Fast 1200mV 0C Model Removal 'BMO'
+Slack : -2.069
+TNS   : -5.486
+
+Type  : Fast 1200mV 0C Model Removal 'lpm_counter:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -0.146
+TNS   : -0.292
+
+Type  : Fast 1200mV 0C Model Removal 'lpm_counter:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.107
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'lpm_counter:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.655
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CLK_att'
+Slack : 0.662
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'lpm_counter:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : 0.677
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'BMO'
+Slack : -3.000
+TNS   : -48.595
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK_att'
+Slack : -3.000
+TNS   : -7.246
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lpm_counter:CONTADOR_Unidade_Minuto_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lpm_counter:CONTADOR_Unidade_Minuto_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lpm_counter:CONTADOR_Unidade_Hora_Abertura|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lpm_counter:CONTADOR_Unidade_Hora_Fechamento|cntr_sij:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -2.000
+
+------------------------------------------------------------

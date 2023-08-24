@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Willian Gustavo/Desktop/Circuito_Janela_SIDE3/controleAutomatico/simulation/qsim
+vcontroleAutomatico
+Z1 !s110 1686769493
+!i10b 1
+!s100 _7_7X_jX2R@fGCL5`5e]R2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9I`cm`lYZ8nhMAVf]65X[0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1686769491
+Z5 8controleAutomatico.vo
+Z6 FcontroleAutomatico.vo
+!i122 28
+L0 32 2122
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1686769493.000000
+Z9 !s107 controleAutomatico.vo|
+Z10 !s90 -work|work|controleAutomatico.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+ncontrole@automatico
+vcontroleAutomatico_vlg_vec_tst
+R1
+!i10b 1
+!s100 VOPSN87RE1UON75kmi`e]0
+R2
+IjROSgEV0hfo@GM[]:j9S@2
+R3
+R0
+w1686769490
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 29
+L0 30 178
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R11
+R12
+ncontrole@automatico_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 _`hFfSnU@f0d>UzFkQ?NK0
+R2
+I8nh6gZ8@Di=:NCRdFXo2D1
+R3
+R0
+R4
+R5
+R6
+!i122 28
+L0 2155 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
