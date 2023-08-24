@@ -1,7 +1,5 @@
 
-<p align="center">
-  <h1>AUTOWIN: Janela Inteligente Automatizada</h1>
-</p>
+<h1 align="center">AUTOWIN: Janela Inteligente Automatizada</h1>
 
 O sistema se baseia na automação de uma janela, possuindo dois modos de operação: manual e automático. 
 
