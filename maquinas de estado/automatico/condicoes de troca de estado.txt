@@ -1,0 +1,7 @@
+fechado-abrindo -> estado inicial (geral em 00), padrao (FF ativo), COLOCA PARAR NO MEIO DO CAMINHO  -> ambos com RL ligado
+abrindo - aberta -> tradicional, parou no meio do caminho
+aberta-fechando -> tradiconal, parou no meio do caminho
+fechando-fechado -> tradicional,parou no meio do caminho
+
+
+
