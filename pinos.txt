@@ -1,0 +1,22 @@
+QBMO -> 		SWITCH [0] = AB28
+CFG1 -> 		SWITCH [1] = AC28
+CLOCK_att -> 	SWITCH [17] = Y23
+ICHA ->		KEY[0] = M23
+ICMA -> 		KEY[1] = M21
+
+
+---------------------
+MINUTO ABERTURA
+---------------------
+Display UMA0..UMA6-> HEX[0]..HEX[6] = G18, F22, E17, L26, L25, J22, H22
+Display DMA0..DMA6 -> HEX1[0]..HEX1[6]= M24, Y22, W21, W22, W25, U23, U24
+
+---------------------
+HORA ABERTURA
+---------------------
+
+Display UHA0..UHA6 -> HEX2[0]..HEX2[6] = AA25, AA26, Y25, W26, Y26, W27, W28
+Dispay DHA0..DHA6 -> HEX3[0]..HEX3[6] = V21, U21, AB20, AA21, AD24, AF23, Y19
+
+
+
