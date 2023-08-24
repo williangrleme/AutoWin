@@ -102,7 +102,7 @@ Sendo o funcionamento padrão da seguinte forma:
 ## Documentação
 Voce pode encontrar a documentação completa do projeto [aqui](https://github.com/williangrleme/AutoWin/blob/main/Documenta%C3%A7%C3%A3o.pdf).
 
-Caso aja curiosidade em relação as maquinas de estados voce pode encontrar as equações resultantes de cada circuito combionacional [aqui](https://github.com/williangrleme/AutoWin/tree/main/maquinas%20de%20estado).
+Caso haja curiosidade em relação as maquinas de estados voce pode encontrar as equações resultantes de cada circuito combionacional [aqui](https://github.com/williangrleme/AutoWin/tree/main/maquinas%20de%20estado).
 
 
 
