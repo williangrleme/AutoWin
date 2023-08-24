@@ -45,14 +45,33 @@ Dentro do software de simulação da Intel, o Quartus, foram usados diversos com
 O circuito final contou com diversos circuitos individuais que somados resultaram no projeto final, ficando como mostra a figura abaixo:
 
 <p align="center">
-  <img src="https://github.com/williangrleme/AutoWin/raw/main/imgs/geral.png" alt="Descrição da Imagem">
+  <img src="https://github.com/williangrleme/AutoWin/raw/main/imgs/geral.png" alt="Imagem">
 </p>
 
 Para tanto, foi utilizado dois blocos de controle (manual e automático) que são dois circuitos individuais que retornam sinais de acionamento de acordo com a funcionalidade do projeto, como mostra a figura abaixo:
 
 <p align="center">
-  <img src="https://github.com/williangrleme/AutoWin/blob/main/imgs/controles.png" alt="Descrição da Imagem">
+  <img src="https://github.com/williangrleme/AutoWin/blob/main/imgs/controles.png" alt="Imagem">
 </p>
+
+E para evitar o acionamento simultaneo dos dois circuitos, foram utilizados multiplexadores para o controle.
+
+<p align="center">
+  <img src="https://github.com/williangrleme/AutoWin/blob/main/imgs/multplex.png" alt="Imagem">
+</p>
+
+Para o controle dos botoes e outras inputs, foi feito o circuito abaixo.
+Foi usado flip-flops nos botoes de incremento por questoes de interferências e ruídos que existem no ambiente prático.
+
+<p align="center">
+  <img src="https://github.com/williangrleme/AutoWin/blob/main/imgs/input.png" alt="Imagem">
+</p>
+
+Voce pode encontrar o circuito detalhado [aqui](https://github.com/williangrleme/AutoWin/tree/main/Circuito_AutoWin).
+
+
+
+
 
 
 
