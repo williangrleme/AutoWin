@@ -73,8 +73,44 @@ Voce pode encontrar o circuito detalhado [aqui](https://github.com/williangrleme
 
 
 
-## Protótipo
-## Documentação
 
-[Documentação](https://github.com/williangrleme/AutoWin/blob/main/Documenta%C3%A7%C3%A3o.pdf)
+## Protótipo
+
+Para o desenvolvimento do protótipo foi utilizado a placa da Altera [DE2-115](https://www.terasic.com.tw/attachment/archive/502/DE2_115_User_manual.pdf).
+
+Caso aja curiosidade de rodar meu projeto em sua placa Altera, voce pode usar meu arquivo .sof baixando ele [aqui](https://github.com/williangrleme/AutoWin/blob/main/Circuito_AutoWin/0%20-%20Controlador_Geral/output_files/Controlador.sof).
+
+Só tera de obedecer a ordem dos pinos que foram setados, sendo essa abaixo:
+<p align="center">
+  <img src="https://github.com/williangrleme/AutoWin/blob/main/imgs/pinagem.png" alt="Imagem">
+</p>
+
+Sendo o funcionamento padrão da seguinte forma:
+
+<p align="center">
+  <img src="https://github.com/williangrleme/AutoWin/blob/main/imgs/modoop.png" alt="Imagem">
+</p>
+
+<p align="center">
+  <img src="https://github.com/williangrleme/AutoWin/blob/main/imgs/modomanual.png" alt="Imagem">
+</p>
+
+<p align="center">
+  <img src="https://github.com/williangrleme/AutoWin/blob/main/imgs/modoautomatico.png" alt="Imagem">
+</p>
+
+## Documentação
+Voce pode encontrar a documentação completa do projeto [aqui](https://github.com/williangrleme/AutoWin/blob/main/Documenta%C3%A7%C3%A3o.pdf).
+
+Caso aja curiosidade em relação as maquinas de estados voce pode encontrar as equações resultantes de cada circuito combionacional [aqui](https://github.com/williangrleme/AutoWin/tree/main/maquinas%20de%20estado).
+
+
+
+
+## 🚀 Sobre mim
+Eu sou um graduando de Engenharia da computação no IFSP e técnico em eletrôeletronica pelo SENAI, e eterno estudante de tudo que tange a tecnologia =)
+
+## Autores
+
+- [Willian Leme](https://github.com/williangrleme)
 
